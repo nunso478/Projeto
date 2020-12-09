@@ -48,6 +48,16 @@ footer{
     border:none;
     height:32px;
     width:260px;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+.botaopesquisa{
+    padding: 9px;
+    background-color: black;
+    color: white;
+    font-size: 0.7rem;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
 }
 .ligacao{
   display: flex;
@@ -69,3 +79,20 @@ footer{
 .Contactos a:hover{
 color: white;
 }
+.fundo {
+    border: 5px outset transparent;
+    background-color: white; 
+    width: 350px;
+    font:  arial;
+  }
+  p{
+      color: gray;
+  }
+  .formato{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: -80px;
+    width: 100%;
+    
+  }
