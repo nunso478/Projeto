@@ -27,6 +27,7 @@
 footer  .col-lg-12{
     background-color: teal;
     padding: 60px;
+     
 }
 .social-media{
     padding: 0 20px;
@@ -36,6 +37,7 @@ footer  .col-lg-12{
 }
 footer{
     color:white;
+    
 }
 .social-media a:hover{
     color:  white;
@@ -94,5 +96,6 @@ color: white;
     position: absolute;
     margin-top: -80px;
     width: 100%;
+    
     
   }
