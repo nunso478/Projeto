@@ -26,7 +26,7 @@
  }
 footer  .col-lg-12{
     background-color: rgb(34, 48, 48);
-    padding: 80px;
+    padding: 50px;
       
 }
 .social-media{
@@ -34,11 +34,14 @@ footer  .col-lg-12{
     color: white;
     text-decoration: none;
     font-size: 30px;  
-    margin: auto;
+    
 }
 footer{
     color:white;
+   background-color: rgb(34, 48, 48);
+   text-align: start;
     
+     
 }
 .social-media a:hover{
     color:  white;
@@ -105,3 +108,4 @@ p{
         width: 100%;
     }
 }
+ 
