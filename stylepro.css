@@ -1,0 +1,28 @@
+.tamanho{
+    font-size: 30px;
+    color: gray;
+    text-align: center;
+     margin-top: 75px;
+}
+.letra{
+    text-align: center;
+}
+.our{
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: 50% 2fr 1fr;
+
+    grid-gap: 10px;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    
+    width: 1000px;
+    margin: 30px auto;
+    background-color: #eeeeee;
+}
