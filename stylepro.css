@@ -30,6 +30,7 @@
     float: right;
     margin-right: 40px;
 }
+
 .Team{
     grid-row-start: 2;
     grid-row-end: 1;
@@ -40,14 +41,51 @@
     border-top-color:red;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+     border-bottom-right-radius: 5px;
      width: 350px;
-     height: 250px;
+     height: 270px;
      margin-left: -150px;
-     
+     box-shadow: 5px 5px 15px rgb(0,0,0,0.5);
 }
 .builder{
     margin-left: 20px;
 }
+.super{
+    grid-row-start: 3;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: 5px solid white;
+    border-style: solid;
+    border-top-color:aqua;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+     width: 350px;
+     height: 270px;
+    margin-left: 20px;  
+    box-shadow: 5px 5px 15px rgb(0,0,0,0.5);
+}
+.karma{
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 2;
+    border: 5px solid white;
+    border-style: solid;
+    border-top-color:orangered;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+     width: 350px;
+     height: 270px;
+    margin-left: -150px;  
+    box-shadow: 5px 5px 15px rgb(0,0,0,0.5);
+}
+
 body{
     margin: 0;
 }
