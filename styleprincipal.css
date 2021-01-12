@@ -1,11 +1,13 @@
 html {
-    font-weight: 600;
+    font-weight: 600px;
 }
 .imagi{
-    background-image: url("/imagem/illustration-1.svg");
+background-image: url("/imagem/illustration-1.svg");
+
 }
 .tome{
     background-image: url("/imagem/illustration-2.svg");
+    
 }
 .paddingbody {
     padding-top: 50px;
@@ -299,4 +301,8 @@ p{
         width: 100%;
         display: block;
     }
+    .paddingbody{
+   margin: 0;
+    }
+    
 }
