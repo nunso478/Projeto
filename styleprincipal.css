@@ -1,8 +1,6 @@
 html {
     font-weight: 600;
 }
-
- 
 .imagi{
     background-image: url("/imagem/illustration-1.svg");
 }
@@ -182,23 +180,10 @@ input {
     letter-spacing: 1px;
 }
 
-.barraroxa {
+.barrar {
     height: 300px;
     background-color: color-primary-desaturated;
     padding-left: 100px;
-}
-
-.footer {
-    height: 350px;
-    background-color: color-primary-dark;
-    color: color-neutral-white;
-    font-family: font-body;
-}
-
-.footer-padding {
-    padding-top: 25px;
-    padding-left: 100px;
-    padding-right: 200px;
 }
 
 .attribution {
@@ -211,20 +196,6 @@ input {
 html {
   font-weight: 600;
 }
-
-body {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  width: auto;
-  height: auto;
-  background-image: url("/images/illustration-1.svg"), url(/images/illustration-2.svg), url(/images/bg-curve-desktop.svg);
-  background-size: 800px, 650px, cover;
-  background-repeat: no-repeat;
-  background-clip: inherit;
-  background-position-x: 1000px, 1000px, center;
-  background-position-y: 200px, 1200px, 970px;
-}
-
 .paddingbody {
   padding-top: 50px;
   padding-left: 100px;
@@ -265,19 +236,11 @@ input {
   letter-spacing: 1px;
 }
 
-.barraroxa {
+.barrar {
   height: 300px;
   background-color: #585989;
   padding-left: 100px;
 }
-
-.footer {
-  height: 350px;
-  background-color: #070439;
-  color: #f6f6fe;
-  font-family: "Open Sans", sans-serif;
-}
-
 .footer-padding {
   padding-top: 25px;
   padding-left: 100px;
@@ -398,11 +361,9 @@ input {
   font-size: 14px;
   letter-spacing: 1px;
 }
-
 .inputebotao {
   padding-right: 100px;
 }
-
 .getstartedforfree {
   font-family: "Open Sans", sans-serif;
   height: 40px;
@@ -415,21 +376,6 @@ input {
   border-style: unset;
   -webkit-box-shadow: 1px 1px 5px #535353;
           box-shadow: 1px 1px 5px #535353;
-}
-
-.logo-em-branco {
-  -webkit-filter: brightness(0) invert(1);
-          filter: brightness(0) invert(1);
-  margin-left: 100px;
-  margin-top: 100px;
-}
-
-.icon-socials {
-  -webkit-filter: brightness(0) invert(1);
-          filter: brightness(0) invert(1);
-  border-radius: 15px;
-  border: 1px solid;
-  padding: 5px;
 }
 body{
     margin: 0;
