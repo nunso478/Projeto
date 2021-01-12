@@ -2,19 +2,13 @@ html {
     font-weight: 600;
 }
 
-body {
-    font-family: font-body;
-    font-weight: 400;
-    width: auto;
-    height: auto;
-    background-image: url('/images/illustration-1.svg'), url(/images/illustration-2.svg), url(/images/bg-curve-desktop.svg);
-    background-size: 800px, 650px, cover;
-    background-repeat: no-repeat;
-    background-clip: inherit;
-    background-position-x: 1000px, 1000px, center;
-    background-position-y: 200px, 1200px, 970px;
+ 
+.imagi{
+    background-image: url("/imagem/illustration-1.svg");
 }
-
+.tome{
+    background-image: url("/imagem/illustration-2.svg");
+}
 .paddingbody {
     padding-top: 50px;
     padding-left: 100px;
@@ -487,3 +481,9 @@ p{
     
     
   }
+  @media only screen and (max-width: 800px){
+    body{
+        width: 100%;
+        display: block;
+    }
+}
