@@ -31,7 +31,7 @@
 .daniel{
     grid-row-start: 1;
     grid-row-end: 1;
-    grid-column-start: 3;
+    grid-column-start: 1;
     grid-column-end: 1;
     border: 5px solid white;
     border-style: solid;
@@ -39,28 +39,12 @@
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    height: 350px;
+   
     background-color:blueviolet;
     color: white;
     
 }
-.jona{
-    grid-row-start: 1;
-    grid-row-end: 5;
-    grid-column-start: 5;
-    grid-column-end: 4;
-    border: 5px solid white;
-    border-style: solid;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    height: 350px;
-    width: 390px;
-    background-color:grey;
-    color: white;
-
-}
+ 
 .builder{
     margin-left: 50px;
     font-size: 25px;
@@ -73,56 +57,7 @@
     font-size: 15px;
     margin-left: 40px;
 }
-.kira{
-    grid-row-start: 1;
-    grid-row-end: 10;
-    grid-column-start: 7;
-    grid-column-end: 9;
-    border: 5px solid white;
-    border-style: solid;
-    border-top-left-radius: 9px;
-    border-top-right-radius: 9px;
-    border-bottom-left-radius: 9px;
-    border-bottom-right-radius: 9px;
-    box-shadow: 5px 5px 15px rgb(0,0,0,0.5);
-    color: black;
-     
-}
-.jeane{
-    grid-row-start: 2;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 1;
-    border: 5px solid white;
-    border-style: solid;
-    border-top-left-radius: 9px;
-    border-top-right-radius: 9px;
-    border-bottom-left-radius: 9px;
-    border-bottom-right-radius: 9px;
-    box-shadow: 5px 5px 15px rgb(0,0,0,0.5);
-    color: black;
-}
-.preto{
-    color: black;
-}
- .patrik{
-    grid-row-start: 2;
-    grid-row-end: 2;
-    grid-column-start: 4;
-    grid-column-end: 6;
-    border: 5px solid white;
-    border-style: solid;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color:rgb(25, 31, 31);
-     
-    color: white;
- }
  
- 
-
 body{
     margin: 0;
 }
@@ -172,7 +107,16 @@ p{
     width: 100%;
     
     
-  }
+}
+.cor{
+    color: black;
+    font-size: 20px;
+    margin-left: 150px;
+}
+.coi{
+    
+    margin-left: 150px;
+}
 @media only screen and (max-width: 800px){
     .container{
          
