@@ -1,4 +1,3 @@
-
 .container{
     display: grid;
     grid-template-rows: repeat(1,1fr);
@@ -12,8 +11,104 @@
     margin: 30px auto;
      
 }
+.containerover{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(4,1fr) ;
 
-
+    grid-gap: 10px;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    
+    width: 1000px;
+    margin: 30px auto;
+}
+.faceover{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+     
+    box-shadow: 5px 5px 15px rgb(0,0,0,0.5);
+}
+.faceover:hover{
+    background-color: grey;
+}
+.faceover2{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+    box-shadow: 5px 5px 15px rgb(0,0,0,0.5);
+}
+.faceover2:hover{
+    background-color: grey;
+}
+.insover{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4; 
+    box-shadow: 5px 5px 15px rgb(0,0,0,0.5);
+}
+.insover:hover{
+    background-color: grey;
+}
+.insover2{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    box-shadow: 5px 5px 15px rgb(0,0,0,0.5);
+}
+.insover2:hover{
+background-color: grey;
+}
+.twittover{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+     
+    box-shadow: 5px 5px 15px rgb(0,0,0,0.5);
+}
+.twittover:hover{
+    background-color: grey;
+}
+.twittover2{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+     
+    box-shadow: 5px 5px 15px rgb(0,0,0,0.5); 
+}
+.twittover2:hover{
+    background-color: grey;
+}
+.youover{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+     
+    box-shadow: 5px 5px 15px rgb(0,0,0,0.5); 
+}
+.youover:hover{
+    background-color: gray;
+}
+.youover2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+     
+    box-shadow: 5px 5px 15px rgb(0,0,0,0.5); 
+}
+.youover2:hover{
+    background-color: gray;
+}
 .face{
     grid-row-start: 1;
     grid-row-end: 2;
@@ -26,6 +121,9 @@
   
     
 }
+.face:hover{
+    background-color: grey;
+}
 .ins{
     grid-row-start: 1;
     grid-row-end: 2;
@@ -36,7 +134,9 @@
     border-top-color:  rebeccapurple;
     box-shadow: 5px 5px 15px rgb(0,0,0,0.5);
 }
-
+.ins:hover{
+    background-color: grey;
+}
 .twitt{
     grid-row-start: 1;
     grid-row-end: 2;
@@ -47,6 +147,9 @@
     border-top-color:blue;
     box-shadow: 5px 5px 15px rgb(0,0,0,0.5);
 }
+.twitt:hover{
+    background-color: grey;
+}
 .you{
     grid-row-start: 1;
     grid-row-end: 2;
@@ -55,10 +158,18 @@
     border: 5px solid white;
     border-style: solid;
     border-top-color:red;
+    box-shadow: 5px 5px 15px rgb(0,0,0,0.5);
     
+}
+.you:hover{
+    background-color: grey;
 }
 .green{
     color: green;
+   
+}
+.red{
+    color: red ;
     text-align: center;
 }
 .faceb{
@@ -68,6 +179,43 @@
     margin-left: auto;
     margin-right: auto;
 }
+.facebover{
+    margin-top: 40px;
+    height: 50px;
+    float: right;
+    margin-top: -110px;
+     
+}
+.facebover1{
+    margin-top: 40px;
+    height: 50px;
+    float: right;
+    margin-top: -90px;
+}
+.greenover{
+     color: green;
+    margin-top: -30px;
+    float: right;
+}
+.redover{
+    color: red;
+    margin-top: -30px;
+    float: right;
+}
+.greenover1{
+    font-size: 30px;
+    color: green;
+    margin-top: -30px;
+    float: right;
+}
+.textoover{
+     margin-bottom: -10px;
+     font-size: 40px;
+}
+.lugarover{
+    font-size: 30px;
+    margin-left: -10px;
+}
 .texto{
     text-align: center;
 }
@@ -75,28 +223,25 @@
     text-align: center;
 }
 .lugar{
-    color: black;
-    float: right;
-    margin-right: 160px;
-    margin-top: -35px;
-    font-size: 15px;
+  
+    text-align: right;
+    margin-top: -30px;
+    margin-right: 20px;
 }
 .lugar1{
-    color: black;
+   
     text-align: right;
     margin-top: -30px;
     margin-right: 20px;
 }
 .lugar2{
-    color: black;
+     
     text-align: right;
     margin-top: -30px;
     margin-right: 20px;
 }
  
-body{
-    margin: 0;
-}
+ 
 footer  .col-lg-12{
     background-color: rgb(4, 13, 95);
     padding: 80px;
@@ -132,7 +277,7 @@ footer{
     font:  arial;
   }
 p{
-    color: white;
+  
     margin-left: 20px;
 }
 .formato{
@@ -145,7 +290,7 @@ p{
     
 }
 .cor{
-    color: black;
+   
     font-size: 20px;
     margin-left: 150px;
   
@@ -165,17 +310,18 @@ body {
     
 } 
 .dark-mode {
-    background-color: black;
+    background-color: rgb(34,36,49);
     color: white;
   
 }
+
 @media only screen and (max-width: 800px){
-    .container{
+    .container,.containerover{
          
         display: block;
        
     }
-    .face,.ins,.twitt,.you{
+    .face,.ins,.twitt,.you,.faceover,.insover,.faceover2,.insover2{
          
          margin-bottom: 15px;
     }
